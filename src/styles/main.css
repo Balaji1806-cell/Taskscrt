@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #93c5fd;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #1e293b;
+}
+
+.nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.page {
+  padding: 20px;
+  text-align: center;
+}
+
+.page img {
+  margin: 10px 0;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  width: 250px;
+}
+
+button {
+  padding: 8px 15px;
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #e5e7eb;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+h2{
+  color: aqua;
+}
+.footer{
+  background-color: aqua;
+}
+
+.footer {
+  background-color: #0f172a; /* dark slate */
+  color: #e5e7eb;
+  padding: 24px 16px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer p {
+  margin-bottom: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.footer a {
+  color: #60a5fa; /* soft blue */
+  text-decoration: none;
+  margin: 0 8px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #93c5fd;
+  text-decoration: underline;
+}
+
+/* Optional: make footer stick nicely on large screens */
+@media (min-width: 768px) {
+  .footer {
+    font-size: 15px;
+  }
+}
+
+.nav link:hover{
+  color: aqua;
+
+
+
+}
+
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 48px 20px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.page h1 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
+
+.page img {
+  margin: 24px 0 40px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.service-card {
+  background: #f8fafc;
+  padding: 24px 20px;
+  border-radius: 14px;
+  text-align: left;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #475569;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 600px) {
+  .page h1 {
+    font-size: 2rem;
+  }
+
+  .service-card {
+    text-align: center;
+  }
+}
+.page h1{
+  color: rgba(230, 126, 8, 0.733);
+}
